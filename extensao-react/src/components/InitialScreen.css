@@ -1,0 +1,60 @@
+.modal1 section {
+    background-color: #191919;
+    border-radius: 15px;
+
+
+}
+
+.modal2 section {
+    background-color: #191919;
+    border-radius: 15px;
+
+}
+
+.modal3 section {
+    background-color: #191919;
+    border-radius: 15px;
+
+}
+
+.modal4 section {
+    background-color: #191919;
+    border-radius: 15px;
+
+}
+
+.modal5 section {
+    background-color: #191919;
+    border-radius: 15px;
+}
+
+.modal6 {
+    background-color: #191919;
+    border-radius: 15px;
+
+}
+
+i {
+    cursor: pointer;
+    padding-top: 1px;
+}
+
+.buttonSigma {
+    background-color: rgba(234, 179, 8, 1);
+}
+
+.buttonManutencao {
+    background-color: rgba(5, 150, 106, 1);
+}
+
+.buttonFooter {
+    background-color: rgba(234, 179, 8, 1);
+}
+
+.modalh2 {
+    color: black;
+}
+
+.modalP {
+    color: black;
+}

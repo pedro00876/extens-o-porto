@@ -18,8 +18,9 @@ const InitialScreen = () => {
       <div>
         <header>
           <h2>User:</h2>
+          <button className="buttonSigma">Token</button>
           <button className="buttonSigma">Departamento</button>
-          <button className="buttonManutencao">Informações</button>
+          <button className="buttonSigma">Informações</button>
         </header>
       </div>
       <main>
@@ -27,6 +28,10 @@ const InitialScreen = () => {
           <section>
             <h3>Dados do Cliente</h3>
             <i onClick={openModal} class="bx bx-chevron-down"></i>
+            <Modal isOpen={isModalOpen} onClose={closeModal}>
+              <h2 className="modalh2">XXXXXXX</h2>
+              <p className="modalP">Este é um modal em React usando Vite.</p>
+            </Modal>
           </section>
         </div>
         <div className="modal2">
@@ -34,8 +39,11 @@ const InitialScreen = () => {
             <h3>Descrição</h3>
             <i onClick={openModal} class="bx bx-chevron-down"></i>
             <Modal isOpen={isModalOpen} onClose={closeModal}>
-              <h2 className="modalh2">Conteúdo do Modal</h2>
-              <p className="modalP">Este é um modal em React usando Vite.</p>
+              <h2 className="modalh2">Descrição</h2>
+              <li className="modalP">
+                <ul>Ultimos produtos/serviços adquiridos:xxxxxx</ul>
+                <ul>data da ultima compra:xxx-xxxx</ul>
+              </li>
             </Modal>
           </section>
         </div>

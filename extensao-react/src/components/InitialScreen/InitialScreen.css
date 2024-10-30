@@ -1,0 +1,22 @@
+.modal section {
+    background-color: #191919;
+    border-radius: 15px;
+    width: 500px;
+    height: 75px;
+    
+
+
+}
+
+i {
+    cursor: pointer;
+    padding-top: 1px;
+}
+
+.modalh2 {
+    color: black;
+}
+
+.modalP {
+    color: black;
+}
